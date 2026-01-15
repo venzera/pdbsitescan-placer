@@ -145,7 +145,8 @@ END
 ## References
 
 - **PLACER**: [PLACER: Protein-Ligand Atomistic Conformational Ensemble Resolver](https://www.biorxiv.org/content/10.1101/2024.09.25.614868v1)
-- **PDBSiteScan**: [wwwmgs.bionet.nsc.ru/cgi-bin/mgs/fastprot/pdbsitescan/](https://wwwmgs.bionet.nsc.ru/cgi-bin/mgs/fastprot/pdbsitescan/)
+- **PDBSiteScan web-server**: https://wwwmgs.bionet.nsc.ru/mgs/systems/fastprot/pdbsitescan.html
+- **PDBSiteScan: [PDBSiteScan: a program for searching for active, binding and posttranslational modification sites in the 3D structures of proteins](https://doi.org/10.1093/nar/gkh439)
 
 ## License
 
