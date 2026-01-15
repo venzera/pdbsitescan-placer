@@ -1,0 +1,53 @@
+ID 1OFYCC3 Include in structure alignment
+PDBID 1OFY
+SITE_TYPE COMPOUND_BINDING
+SITE_DESCR GOL BINDING SITE FOR CHAIN B
+EC_NUMBER
+LIGAND GLYCEROL;
+LIGAND_FORMUL C3 H8 O3;
+DRUG
+Max Dist    1.53
+RMSD        1.12
+Site chain in the protein:     A    A    A    
+Site positions in the protein: 153  219  221  
+Site residues in the protein:  R    D    H    
+Site chain in the PDBSite:     A    B    B    
+Site positions in the PDBSite: 256  77   81   
+Site residues in the PDBSite:  R    D    H    
+END
+ID 1UMXAC8 Include in structure alignment
+PDBID 1UMX
+SITE_TYPE COMPOUND_BINDING
+SITE_DESCR BPB BINDING SITE FOR CHAIN M
+EC_NUMBER
+LIGAND BACTERIOPHEOPHYTIN A;
+LIGAND_FORMUL C55 H76 N4 O6;
+DRUG
+Max Dist    1.65
+RMSD        0.90
+Site chain in the protein:     A    A    A    
+Site positions in the protein: 276  278  283  
+Site residues in the protein:  F    L    L    
+Site chain in the PDBSite:     L    L    L    
+Site positions in the PDBSite: 181  185  189  
+Site residues in the PDBSite:  F    L    L    
+END
+ID 1OFYCC3 Include in structure alignment
+PDBID 1OFY
+SITE_TYPE COMPOUND_BINDING
+SITE_DESCR GOL BINDING SITE FOR CHAIN B
+EC_NUMBER
+LIGAND GLYCEROL;
+LIGAND_FORMUL C3 H8 O3;
+DRUG
+Max Dist    2.00
+RMSD        1.48
+Site chain in the protein:     A    A    A    
+Site positions in the protein: 149  219  221  
+Site residues in the protein:  R    D    H    
+Site chain in the PDBSite:     A    B    B    
+Site positions in the PDBSite: 256  77   81   
+Site residues in the PDBSite:  R    D    H    
+END
+
+
