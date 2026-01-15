@@ -76,41 +76,6 @@ output_dir/
 ├── site_2_.../
 └── ...
 ```
-
-## PLACER Metrics
-
-### Confidence Metrics (for assessing prediction quality)
-
-| Metric | Description | Interpretation |
-|--------|-------------|----------------|
-| **prmsd** | Predicted RMSD of atomic positions | Lower is better. Primary ranking metric |
-| **plddt** | Predicted lDDT score (1D track) | Higher is better (0-1 scale) |
-| **plddt_pde** | Predicted lDDT score (2D track) | Higher is better (0-1 scale) |
-
-### Accuracy Metrics (comparison to ground truth)
-
-| Metric | Description | Interpretation |
-|--------|-------------|----------------|
-| **rmsd** | RMSD between input and predicted ligand | Lower is better |
-| **kabsch** | Superimposed RMSD (conformation accuracy) | Lower is better |
-| **lddt** | Actual lDDT score | Higher is better (0-1 scale) |
-| **fape** | Frame Aligned Point Error | Lower is better |
-
-### Interpretation Guidelines
-
-| Confidence Level | prmsd | plddt / plddt_pde |
-|------------------|-------|-------------------|
-| **HIGH** (trustworthy) | < 2.0 | > 0.8 |
-| **MEDIUM** (acceptable) | 2.0-4.0 | 0.6-0.8 |
-| **LOW** (unreliable) | > 4.0 | < 0.6 |
-
-### Recommendations
-
-- Use **prmsd** as the primary metric for ranking predictions
-- High confidence: prmsd < 2.0 with plddt > 0.8
-- For complex ligands: prmsd < 4.0 with plddt > 0.8 is acceptable
-- Generate 50-100 samples and analyze top 10% by prmsd for best results
-
 ## Workflow
 
 ```
@@ -185,11 +150,6 @@ END
 ## License
 
 MIT License
-
-## Contributors
-
-- **Artur Venzel** - Initial development
-- **Claude (Anthropic)** - Co-development and implementation
 
 ---
 
