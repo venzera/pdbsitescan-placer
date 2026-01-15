@@ -147,7 +147,3 @@ END
 ## License
 
 MIT License
-
----
-
-*This tool was co-developed with [Claude](https://claude.ai), Anthropic's AI assistant.*
